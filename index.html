@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aalia's Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="light">
+
+<header class="hero">
+    <h1>WELCOME TO AALIA KHAN'S PROJECT 🌸</h1>
+    <p>Creative Developer | Dreamer |  Innovator & Builder </p>
+    <button id="themeToggle">🌙 Toggle Theme</button>
+</header>
+<section id="about">
+<h2>About Me</h2>
+<p>
+    Hi, I’m <strong>Aalia Khan</strong>, a BSc IT student at <em>Sophia College for Women (Autonomous)</em> and a passionate front-end developer with a love for elegant, pastel-infused designs.
+</p>
+<p>
+    I specialize in <strong>HTML, CSS, JavaScript, Core Java, and Python</strong>, and I thrive on building visually delightful and interactive web experiences. Always eager to grow, I seek projects that challenge my creativity and push my boundaries.
+</p>
+<p>
+    Beyond code, I enjoy <em>sketching</em>, diving into <em>tech trends</em>, and have an unapologetic love for <em>motor vehicles</em>—a perfect balance of art and adrenaline that fuels my journey as a developer.
+</p>
+These hobbies keep me grounded, spark my creativity, and add balance to my tech-driven journey.</h3></section>
+
+<div class="skills-section">
+<h3>💻 My Technical Skillset</h3>
+<p>Below are the languages and tools I'm proficient in, represented visually to showcase my comfort level with each.</p>
+
+<div class="skills">
+    <div class="skill">HTML<div class="bar html"></div></div>
+    <div class="skill">CSS<div class="bar css"></div></div>
+    <div class="skill">JavaScript<div class="bar js"></div></div>
+    <div class="skill">Core Java<div class="bar core-java"></div></div>
+</div>
+</div>
+
+
+</section>
+<section id="projects" class="projects-section">
+<h2>📁 Projects I’ve Built</h2>
+<p>Here are some of the projects I’ve worked on, each one helping me grow as a developer:</p>
+
+<ul class="project-list">
+    <li><span>🚴‍♀️</span> Bike Rental Website using JavaScript, HTML, and CSS</li>
+    <li><span>⚛️</span> Bike Rental Website using ReactJS</li>
+    <li><span>☕</span> Coffee Shop App using Android Studio</li>
+    <li><span>🛒</span> E-commerce Website using JavaScript, HTML, and CSS</li>
+    <li><span>📝</span> To-Do App with Local Storage</li>
+    <li><span>🗂️</span> Product Listing Page with Filters & Sorting</li>
+    <li><span>🌐</span> Personal Portfolio Website</li>
+</ul>
+</section>
+
+</section>
+
+<section id="todo">
+    <h2>To-Do List</h2>
+    <div class="todo-app">
+    <input type="text" id="taskInput" placeholder="Add a new task...">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+    </div>
+</section>
+
+<section id="products">
+    <h2>Products</h2>
+    <div class="filters">
+    <select id="categoryFilter" onchange="filterProducts()">
+        <option value="all">All Categories</option>
+        <option value="beauty">Beauty</option>
+        <option value="tech">Tech</option>
+    </select>
+    <select id="sortOption" onchange="sortProducts()">
+        <option value="price">Sort by Price</option>
+        <option value="rating">Sort by Rating</option>
+    </select>
+    </div>
+    <div id="productGrid" class="product-grid"></div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+    </form>
+    <div class="socials">
+    <a href="https://github.com/AaliaInTech" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/aalia-khan-2b0b89273/" target="_blank">LinkedIn</a>
+    <a href="mailto:aalia@example.com">Email Me</a>
+    </div>
+</section>
+
+<script>
+    // Theme toggle logic
+    const toggleBtn = document.getElementById('themeToggle');
+    toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    });
+</script>
+<script src="script.js"></script>
+</body>
+</html>
