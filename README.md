@@ -14,7 +14,7 @@ Welcome to my final AP-TK4 project! This is a responsive and aesthetic personal 
 - Simple and clean UI design
 
 ## 🚀 How to View
-You can [view the live site here](https://aaliaintech.github.io/AP-TK4/) 
+You can [view the live site here](https://github.com/AaliaInTech/AP-TK4/tree/main) 
 
 ## 🧠 Author
 **Aalia Khan** – Creative Developer | Dreamer | Innovator & Builder 💕
